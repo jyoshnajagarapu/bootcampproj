@@ -5,8 +5,8 @@ import FloatingActionButton from 'material-ui/FloatingActionButton';
 import ContentCreate from 'material-ui/svg-icons/content/create';
 import ContentAdd from 'material-ui/svg-icons/content/add';
 import {pink500, grey200, grey500} from 'material-ui/styles/colors';
-import PageBase from '../components/PageBase';
-import Data from '../data';
+import PageBase from './PageBase';
+import Data from './data';
 
 const TablePage = () => {
 
@@ -55,7 +55,7 @@ const TablePage = () => {
         <Table>
           <TableHeader>
             <TableRow>
-              <TableHeaderColumn style={styles.columns.id}>ID</TableHeaderColumn>
+              <TableHeaderColumn style={styles.columns.id}>IDD</TableHeaderColumn>
               <TableHeaderColumn style={styles.columns.name}>Name</TableHeaderColumn>
               <TableHeaderColumn style={styles.columns.price}>Price</TableHeaderColumn>
               <TableHeaderColumn style={styles.columns.category}>Category</TableHeaderColumn>
